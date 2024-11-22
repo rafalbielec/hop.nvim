@@ -38,6 +38,7 @@ target in your document reachable in a few keystrokes.
     * [Important note about versioning](#important-note-about-versioning)
     * [Using vim-plug](#using-vim-plug)
     * [Using packer](#using-packer)
+    * [Using paq](#using-paq)
     * [Nightly users](#nightly-users)
 * [Usage](#usage)
 * [Keybindings](#keybindings)
@@ -121,12 +122,18 @@ Plug 'phaazon/hop.nvim'
 
 ```lua
 use {
-  'phaazon/hop.nvim',
-  branch = 'v2',
+  "rafalbielec/hop.nvim",
+  branch = "v2",
   config = function()
     require'hop'.setup { keys = '1234qwerasdf' }
   end
 }
+```
+
+### Using Paq
+
+```lua
+{ "rafalbielec/hop.nvim", branch = "v2.0" }
 ```
 
 ### Nightly users

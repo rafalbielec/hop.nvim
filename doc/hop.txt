@@ -611,7 +611,7 @@ below.
         sequence keys.
 
     Defaults:~
-        `keys = 'asdghklqwertyuiopzxcvbnmfj'`
+        `keys = '1234qwerasdf'
 
 `quit_key`                                                   *hop-config-quit_key*
     A string representing a key that will quit Hop mode without also feeding
